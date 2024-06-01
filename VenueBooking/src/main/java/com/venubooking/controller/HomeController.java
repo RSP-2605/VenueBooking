@@ -12,4 +12,9 @@ public class HomeController {
 		return "This is test response";
 	}
 	
+	@GetMapping("/")
+	public String Home() {
+		return "This is home page of venue booking made by Rahul Singh Parihar, Kshitija Shingnapurkar, Siddhesh Gathibandhe, Pratiksha Hatekar";
+	}
+	
 }
